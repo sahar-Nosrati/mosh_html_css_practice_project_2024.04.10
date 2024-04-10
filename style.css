@@ -1,9 +1,9 @@
 .container {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: black;
-  align-items: center;
   font-family: sans-serif;
+  justify-content: end;
 }
 .nav1,
 .nav2,
@@ -11,4 +11,6 @@
 .nav4,
 .nav5 {
   color: azure;
+  margin-left: 20px;
+  margin-right: 20px;
 }
